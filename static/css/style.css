@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(135deg, #0d6efd, #6f42c1);
+    min-height: 100vh;
+    padding: 40px;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.main-card {
+    max-width: 650px;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.icon {
+    font-size: 70px;
+}
+
+.btn-primary {
+    border-radius: 12px;
+    transition: .3s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+}
+
+.form-control {
+    border-radius: 12px;
+}
+
+.result-image {
+    max-height: 260px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
+}
+
+.badge {
+    padding: 12px 22px;
+}
+
+.progress {
+    height: 30px;
+    border-radius: 20px;
+}
+
+.progress-bar {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer {
+    font-size: 14px;
+    color: #777;
+}
